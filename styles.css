@@ -36,9 +36,8 @@ body {
 	margin-top: 0;
 }
 
-.body-left,
 .body-right {
-	padding: x;
+	border-top: 100px;
 }
 
 input {
