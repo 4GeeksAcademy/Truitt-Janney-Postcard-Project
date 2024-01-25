@@ -19,9 +19,9 @@ body {
 }
 
 .postcard-header h1 {
-    width: 100%;
-    margin: 0;
-} 
+	width: 100%;
+	margin: 0;
+}
 
 .postcard-header img {
 	width: 40px;
@@ -31,13 +31,14 @@ body {
 .postcard-body {
 	display: flex;
 }
---------------
-.body-left p:first-child {
+-------------- .body-left p:first-child {
 	margin-top: 0;
 }
 
 .body-right {
 	border-top: 100px;
+	margin-top: 25px;
+    line-height: 2;
 }
 
 input {
@@ -52,4 +53,6 @@ input {
 button {
 	background-color: gray;
 	padding: 5px 10px;
+	margin-left: 130px;
+    margin-top: 25px;
 }
